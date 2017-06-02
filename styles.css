@@ -1,0 +1,272 @@
+
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+
+body {
+  background-color: #F6E6E6;
+}
+
+
+/* ALL */
+.header {
+  background-color: #F6F3F3;
+  border-radius: 40px;
+}
+
+.logo {
+  background-color: #F6F3F3;
+  margin: auto;
+  width: 40%;
+}
+
+.logo img {
+  width: 100%;
+  padding-top: 20px;
+  margin: auto;
+}
+
+.linkbar {
+    border-radius: 50px;
+    background-color: pink;
+    width: 95.6%;
+    margin: auto;
+    margin-top: 0px;
+    padding: 20px;
+    font-size: 1rem;
+    font-weight: lighter;
+    position: fixed;
+}
+
+.links a {
+  color: white;
+  margin: auto;
+  text-decoration: none;
+  font-family: 'Amatic SC', cursive, bold;
+  font-size: 1.5rem;
+  padding-left: 10px;;
+  padding-right: 10px;
+}
+
+a:hover {
+  color: #AE808E;
+}
+
+/* HOMEPAGE */
+
+.banner img {
+  width: 100%;
+  border-radius: 40px;
+
+}
+
+.bestsellers {
+  max-width: 30%;
+  float: left;
+  margin: 1%;
+  margin-top: 0px;
+  color: #AE808E;
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-align: center;
+}
+
+.bestsellersimg img {
+  background-color: #E0B6B6;
+  border-radius: 50px;
+  max-width: 30%;
+  margin: 1%;
+
+}
+
+/* ABOUT PAGE */
+
+
+.ourproductcontainer {
+  float: left;
+  width: 100%;
+
+}
+
+.ourproduct {
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: grey;
+  margin: auto;
+  text-align: center;
+  padding: 100px;
+}
+
+.ourproductimg img {
+  border-radius: 50px;
+  float: left;
+  width: 60%;
+  margin-right: 0%;
+}
+
+.ourstorecontainer {
+  float: left;
+  width: 100%;
+}
+
+.ourstore {
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: grey;
+  margin: auto;
+  text-align: center;
+  padding: 100px;
+
+}
+
+.ourstoreimg img {
+  border-radius: 50px;
+  float: right;
+  width: 60%;
+  margin-right: 0%;
+}
+
+.hogsmeadecontainer {
+  float: left;
+  width: 100%;
+}
+
+.hogsmeade {
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: grey;
+  margin: auto;
+  text-align: center;
+  padding: 100px;
+}
+
+.hogsmeadeimg img {
+  border-radius: 50px;
+  float: left;
+  width: 60%;
+  margin-right: 0%;
+}
+
+/* PRODUCTS */
+.productsimg img {
+  height:;
+   width: 20%;
+   margin: auto;
+   margin: 4%;
+   margin-bottom: 10px;
+   max-width: 30%;
+ }
+
+
+
+.products {
+  width: 20%;
+  float: left;
+  text-align: center;
+  margin: 5%;
+  margin-top: 0px;
+  padding: 15px;
+  color: #AE808E;
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-align: center;
+}
+
+.instore {
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: grey;
+  text-align: center;
+  margin: auto;
+
+}
+
+
+
+.Contact {
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: grey;
+  text-align: center;
+}
+
+.title {
+  font-family: 'Amatic SC', cursive;
+  font-size: 3rem;
+  text-decoration: none;
+  color: #AE808E;
+  text-align: center;
+
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
+}
+
+input[type=submit] {
+    background-color: pink;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #AE808E;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+    border-radius: 5px;
+    color: grey;
+    font-family: 'Open Sans Condensed', sans-serif;
+    background-color: #F6E6E6;
+    padding: 20px;
+}
+
+
+
+.footer {
+  color: pink;
+  background-color: white;
+  margin-top: 5%;
+  height: 50px;
+  border-radius: 10px;
+}
+
+
+
+@media screen and (max-width: 500px) {
+  .productsimg img {
+    width: 50%;
+  }
+  .products{
+    width: 50%;
+  }
+  .links {
+    margin-top: 5px;
+    text-align: center;
+    font-size: 0.75em;
+  }
+  .linkbar {
+    max-height: 20px;
+  }
+  .ourproductimg img {
+    width: 100%;
+  }
+
+  .ourstoreimg img {
+    width: 100%;
+  }
+
+  .hogsmeadeimg img {
+    width: 100%;
+  }
+
+
+
+  .title {
+    font-size: 2rem;
+  }
+}

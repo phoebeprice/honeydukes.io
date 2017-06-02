@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<html>
+
+<title>
+Honeydukes
+</title>
+<link rel="stylesheet" href="styles.css" />
+
+<head>
+<style>
+ body {background-color: #C1DBCE;}
+</style>
+</head>
+
+
+<body>
+  <div class="header">
+
+    <div class="linkbar">
+
+      <div class="links">
+        <a href="honeydukes.html">Home</a>
+        <a href="aboutus.html">About</a>
+        <a href="products.html">Products</a>
+        <a href="contact.html"><span style="color:#AE808E">Contact</span></a>
+      </div>
+    </div>
+
+    <div class="logo">
+      <img src="images/honeydukes/logo.png" alt=Home/>
+    </div>
+  </div>
+
+
+
+    <div class="title"> Contact Us </div>
+    <div class="Contact">
+    If you have any queries, you can submit this form which we will read and get
+    back to you.
+  </div>
+  </div>
+
+  <div class="container">
+
+  <form action="/action_page.php">
+
+    <label for="fname">Name</label>
+    <input type="text" id="name" name="name" placeholder="Your name..">
+
+    <label for="lname">Postal Address</label>
+    <input type="text" id="name" name="address" placeholder="eg. 4 Privet Drive">
+
+    <label for="country">Place of Study</label>
+    <select id="country" name="country">
+      <option value="select">--please select--</option>
+      <option value="hogwarts">Hogwarts</option>
+      <option value="beauxbatons">Beauxbatons Academy of Magic</option>
+      <option value="durmstrang">Durmstrang Institute</option>
+      <option value="none">None of the Above</option>
+    </select>
+
+    <label for="subject">Message</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <script type="text/javascript">
+         <!--
+            function getConfirmation(){
+               var retVal = confirm("Press OK to Submit ?");
+               if( retVal == true ){
+                  window.location.replace("honeydukes.html")
+                  return true;
+               }
+               else{
+                  window.location.replace("contact.html")
+                  return false;
+               }
+            }
+         //-->
+      </script>
+
+   </head>
+   <body>
+      <p> </p>
+
+      <form>
+         <input type="button" value="Submit" onclick="getConfirmation();" />
+      </form>
+
+  </form>
+
+</div>
+
+</body>
+<footer>
+
+  <div class="footer">
+    Honeydukes
+  </div>
+
+</footer>
+
+
+
+</html>
